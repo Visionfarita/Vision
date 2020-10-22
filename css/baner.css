@@ -1,0 +1,88 @@
+#baner {
+    margin-top: 50px;  
+   position: relative; 
+   padding-top: 30px ;
+   padding-bottom: 70px;
+}
+#baner img {
+    width: 90%;
+    height: auto;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px 10px rgb(170, 81, 54);
+  
+    
+}
+#baner .contenedor {
+    position: absolute;
+    top: 85%;
+    color: #000;
+    text-align: center;
+}
+
+
+/* #baner .contenedor p*/
+
+.contenedor .mision {
+    background-color:  rgb(245,17,173,0.9);
+    font-size: 22px;
+    color: #000; 
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+ }
+ .contenedor .mision h2 {
+    font-size: 40px;
+    color: #000;
+ }
+.vision {
+    width: 90%;
+    font-size: 22px;
+    color: #000; 
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+   background-color:  rgb(245,17,173,0.9);
+    
+}
+
+.tel01 {
+    color:white;
+     text-align: right;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.main-header__contactinfo {
+   
+    position: absolute;  
+    top: 90px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    height: 0;
+    color: black;
+    font-weight: bold;
+    padding-right: 100px;
+ }
+
+ 
+ @media screen and (max-width:800px) {
+    
+    #bienvenidos {display: none;
+                padding-bottom: 10px;
+                margin-bottom:  20px;}
+ }
+
+
+
+@media(max-width: 480px) {
+    #baner h2{
+        font-size: 40px;
+    }
+    #baner a{
+        margin-top: 25px;
+    }
+ }
+
